@@ -1,0 +1,55 @@
+<html>
+    <head>
+        <link rel='stylesheet' href='style.css'>
+    </head>
+    <body>
+        <div class="container">		
+            <div id="case-summary-container">
+                <div id="case-summary">
+                    <div class="case-summary-content">
+                        <div class="case-drop-name">
+                            <p>Awesome!</p>
+                            <p>You got <blue>Ev0</blue>lve subscription</p>
+                            <div class="case-drop-img"><img src="https://ev0lve.xyz/styles/ev0lved!/images/products/csgo.png">
+                        </div>
+                    </div>
+					
+					</div>
+					
+                    <div id="case-buttons">
+                        <button class="red" onclick="summaryClose()">Close</button>
+                    </div>
+                </div>
+            </div>
+			
+            <div class="case-container">
+                <div class="case-name">
+					<blue>Ev0</blue>lve Case
+					<span>Cases left: 10</span>
+				</div>
+				
+                <div class="case-arrow">
+					<svg xmlns="http://www.w3.org/2000/svg" height="35px" viewBox="0 0 24 24" width="35px" fill="#000000">
+						<path d="M0 0h24v24H0V0z" fill="none"/><path d="M10 8.64L15.27 12 10 15.36V8.64M8 5v14l11-7L8 5z"/>
+					</svg>
+				</div>
+				
+                <div id="arrow" class="case-arrow-inv">
+				
+				</div>
+				
+                <div class="case-main">
+                    <div class="case-overlay"></div>
+                    <div class="case-items" id='items' ref="items">
+                    <img class="case-img" src="https://ev0lve.xyz/styles/ev0lved!/images/products/csgo.png">
+                    <div>
+                    <img class="case-img2" src="https://ev0lve.xyz/styles/ev0lved!/images/products/csgo.png">
+					</div>
+                    </div>
+                </div>
+				
+                <button onclick="summaryOpen()" id='btn' ref="btn">Open Case</button>
+            </div>
+        <script src="app.js"></script>
+    </body>
+</html>
